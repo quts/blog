@@ -1,11 +1,12 @@
 ---
 title: Learning dotNet Core — My first App
 date: 2019-02-09
-hero: "/images/hero-3.jpg"
-excerpt: Develope my first .net core app in Visual Studio for Mac
-authors:
-- Vincent Chang
-
+categories:
+  - "microservice"
+tags:
+  - "microservice"
+  - "C#"
+lead: "Using Visual Studio for Mac to start your journey about .Net Core Web App"
 ---
 
 Microsoft has already released its dotnet core framework for a long time, which is an open-source and cross-platform framework. I decided to learn it from now on, and I want to write something for a record.

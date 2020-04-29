@@ -1,4 +1,36 @@
-baseURL = "https://quts.github.io/"
-languageCode = "en-us"
+baseurl = "/"
 title = "Programurmur"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
 theme = "mainroad"
+disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+  name = "Vincent Chang"
+  bio = "Software engineer who loves to automate anythings"
+  avatar = ""
+[Params]
+  subtitle = "Life, a series try, error and learn, so does doing software projects." # Subtitle of your site. Used in site header
+  description = "mur mur of a programmer" # Site description. Used in meta description
+  copyright = "Vincent Chang" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  readmore = true # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  #facebook = "frazda"
+  #linkedin = "vincentyy"
+  #github = "quts"
+

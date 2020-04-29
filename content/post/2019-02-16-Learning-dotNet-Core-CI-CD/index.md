@@ -1,12 +1,15 @@
 ---
 title: Learning dotNet Core — CI/CD
 date: 2019-02-16
-hero: "/images/hero-3.jpg"
-excerpt: There is a lot of tools to help you with DevOps tasks in the open-source world, standing with them to make your life easier.
-authors:
-- Vincent Chang
-
+categories:
+  - "DevOps"
+tags:
+  - "DevOps"
+  - "Jenkins"
+  - "CI/CD"
+lead: "There is a lot of tools to help you with DevOps tasks in the open-source world, standing with them to make your life easier."
 ---
+
 If you working in a software company, you will have a lot of teammate with you. Someone work on developing, someone working on testing, and someone working on DevOps. However, when you are working on a personal side project, you might feel trouble for those tasks beyond coding. Fortunately, in this beautiful world, we have many resources are free or almost free, such as Github, Travis CI, and Heroku, which helps us manage source code, continues delivery and release in an easier way.
 # Link your Github repository with Travis CI
 If you start from the first article in this series, you will know it is just a note for myself, so I am not going to introduce how to put your project on Github. However, it is my first time to integrate my project with Travis CI. So I am going to not something here.

@@ -1,12 +1,13 @@
 ---
 title: Is it DevOps?你這樣DevOps嗎?
 date: 2020-01-09
-hero: "/images/hero-3.jpg"
-excerpt: A story describes a waterfall team adopting DevOps toolchain and midset. 敘述一個瀑布式開發團隊想要轉型DevOps的故事。
-authors:
-- Vincent Chang
-
+categories:
+  - "DevOps"
+tags:
+  - "DevOps"
+lead: "A story describes a waterfall team adopting DevOps toolchain and midset. 敘述一個瀑布式開發團隊想要轉型DevOps的故事。"
 ---
+
 Recently our team talks about DevOps transformation. Sometimes we joke ourselves about how we work currently by “Is it DevOps?”. Sometimes we seriously ask ourselves how to do the right things by “Is it DevOps?”. I would like to write something about what I think.
 
 最近我們部門在討論有關DevOps轉型的話題，流行語就是『你這樣做有DevOps嗎？』當然，有時候是帶點戲謔的語氣質疑現在的作法，但有時候我們是認真想知道怎麼做比較好。在這裡，我想以我的觀點來記錄這件事情。

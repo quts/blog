@@ -1,11 +1,13 @@
 ---
 title: Install Jenkins on WSL-Ubuntu
 date: 2020-03-27
-hero: "/images/hero-3.jpg"
-excerpt: Install Jenkins on Windows Subsystem Linux (Ubuntu)
-authors:
-- Vincent Chang
-
+categories:
+  - "DevOps"
+tags:
+  - "Jenkins"
+  - "WSL"
+  - "Ubuntu"
+lead: "Install Jenkins on Windows Subsystem Linux (Ubuntu)"
 ---
 If you are working on the build flow maintenance with Jenkins, how do you verify your pipeline script? I mean a local compiler/interpreter like MSBuild/GCC/python or something else. I don't know, so I would like to have a Jenkins server in my local machine, so before I deploy the script to the staging environment, I can test it locally. Docker image may the right choice, but in Windows OS you can not install docker and other virtual machine solution at the same time, so I want to try if WSL helps on this.
 # Launch WSL

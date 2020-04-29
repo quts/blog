@@ -1,11 +1,12 @@
 ---
 title: Continuous Integration with Jenkins
 date: 2020-04-11
-hero: "/images/hero-3.jpg"
-excerpt: automate everything with Jenkins
-authors:
-- Vincent Chang
-
+categories:
+  - "DevOps"
+tags:
+  - "Jenkins"
+  - "DevOps"
+lead: "Automate everything with Jenkins"
 ---
 Here is what our project do in the past. We commit our change to the version control system and submit a “build” through the build system. Whenever it close to a project milestone, I was nervous about the code change that I just commit until a “build” comes out correctly. Why? I don’t want to make everyone waste hours to wait for the next build. To avoid this, sometimes you will make a build in local before you commit the change and you perform a series of test to make sure everything goes as usual. But have you ever forget about it? What if we have an automatic system to complete all the things on your checklist before the change made on the master branch?
 
