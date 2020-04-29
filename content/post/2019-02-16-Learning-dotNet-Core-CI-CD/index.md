@@ -3,9 +3,11 @@ title: Learning dotNet Core — CI/CD
 date: 2019-02-16
 categories:
   - "DevOps"
+  - "microservice"
 tags:
   - "DevOps"
-  - "Jenkins"
+  - "microservice"
+  - "Travis CI"
   - "CI/CD"
 lead: "There is a lot of tools to help you with DevOps tasks in the open-source world, standing with them to make your life easier."
 ---
