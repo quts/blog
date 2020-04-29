@@ -17,6 +17,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   opengraph = true # Enable OpenGraph if true
   readmore = true # Show "Read more" button in list if true
   authorbox = true # Show authorbox at bottom of pages if true
+  post_meta = ["date", "categories"] # Order of post meta information
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
