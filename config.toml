@@ -9,7 +9,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Author] # Used in authorbox
   name = "Vincent Chang"
   bio = "Software engineer who loves to automate anythings"
-  avatar = ""
+  avatar = "avatar.svg"
 [Params]
   subtitle = "Life, a series try, error and learn, so does doing software projects." # Subtitle of your site. Used in site header
   description = "mur mur of a programmer" # Site description. Used in meta description
