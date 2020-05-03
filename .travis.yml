@@ -4,6 +4,6 @@ python:
 # command to install dependencies
 install:
   - curl https://github.com/gohugoio/hugo/releases/download/v0.69.2/hugo_0.69.2_Linux-64bit.deb > hugo.deb
-  - dpkg -i hugo.deb
+  - sudo dpkg -i hugo.deb
 # command to run tests
 script: hugo
