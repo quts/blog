@@ -1,12 +1,12 @@
 ---
-title: 一眼看穿x86或是x64的PE File
+title: x86或是x64的PE File?
 date: 2020-05-11
 categories:
   - "Windows"
 tags:
   - "Windows"
   - "troubleshooting skill"
-lead: "如何一眼看穿PE File binary是x86還是x64?"
+lead: "當有人直接拿個檔案問你的時候，你怎麼知道那是x86還是x64的檔案？"
 ---
 身為Endpoint產品的工程師，通常都會遇到各種奇奇怪怪的情況，有時候是設計上並不周全，有時候是環境使然，有時候就是怪怪的需要大家一起猜猜看，
 所以大夥也都各自練就一身奇奇怪怪的功夫。今天想談的一個小故事是前一陣子我們QA敲給我的一個case，大意是說某個system services上了hotfix就一睡不起。
