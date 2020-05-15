@@ -37,8 +37,15 @@ IMAGE_FILE_MACHINE_I386     0x14c     Intel 386 or later processors and compatib
 
 ## 所以，知道這些有幫助嗎？我又不是電腦，我看得懂嗎？
 
-對啊，我是一般人，我哪知道哪個偏移量的數值是多少？所以我裝了![hexdump for VSCode](https://marketplace.visualstudio.com/items?itemName=slevesque.vscode-hexdump)，這樣我可以在文字編輯器就看到檔案當中16進位的樣子
+對啊，我是一般人，我哪知道哪個偏移量的數值是多少？所以我裝了[hexdump for VSCode](https://marketplace.visualstudio.com/items?itemName=slevesque.vscode-hexdump)，這樣我可以在文字編輯器就看到檔案當中16進位的樣子
 ![](001.png)
+
+好喔，所以我一眼就看穿offset 0x3c的附近寫著0x8664嗎？不！尤其這張圖還是little endian，每個offset上的數值跟spec上寫的順序還是相反的！
+但是，還記得前面我們說的，在檔案的0x3c寫的是PE\0\0嗎？
+現在的hex viewer都很貼心，
+在右半邊通常都會幫你翻譯承你看得懂的字所以你看到```0x455000```被翻譯成```PE..```，然後在他的後面就是```0x8664```
+
+ＢＩＮＧＯ！這下真的結案了，這是一個64位元的檔案！
 
 # Reference
 - https://docs.microsoft.com/en-us/windows/win32/debug/pe-format
