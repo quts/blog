@@ -20,12 +20,12 @@ lead: "如何一眼看穿PE File binary是x86還是x64?"
 ## 所以，當有人直接拿個檔案問你的時候，你怎麼知道那是x86還是x64的檔案？
 
 其實就把這樣的疑惑拿去餵狗，大家的好朋友谷歌就會告訴我們答案了，而這個答案自然與PE file format脫不了關係        
-讓我們看一下微軟是怎麼說的，首先呢是PE file有很多不同的區塊，當然我不是這方面的專家，我是看不懂大部分的內容，但是呢我看到![這個](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format#signature-image-only)
+讓我們看一下微軟是怎麼說的，首先呢是PE file有很多不同的區塊，當然我不是這方面的專家，我是看不懂大部分的內容，但是呢我看到[這個](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format#signature-image-only)
 ```plaintext
 After the MS-DOS stub, at the file offset specified at offset 0x3c, is a 4-byte signature that identifies the file as a PE format image file. This signature is "PE\0\0" (the letters "P" and "E" followed by two null bytes).
 ```
 文件告訴我們，身為一個PE file，那一定在檔案的0x3c這個固定的位置有一個區塊寫著PE\0\0這樣的字，
-接著在他的後面則是COFF File Header這個區塊，COFF File Header的開頭就是Machine type，然後Machine type的![定義](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format#machine-types)是
+接著在他的後面則是COFF File Header這個區塊，COFF File Header的開頭就是Machine type，然後Machine type的[定義](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format#machine-types)是
 ```plaintext
 The Machine field has one of the following values that specifies its CPU type. An image file can be run only on the specified machine or on a system that emulates the specified machine.
 ```
