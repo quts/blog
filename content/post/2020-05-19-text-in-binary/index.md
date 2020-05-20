@@ -6,7 +6,7 @@ categories:
 tags:
   - "Windows"
   - "troubleshooting skill"
-lead: "我忘了進板控，這份檔案是的那個xxx token還有效嗎?"
+lead: "我忘了進板控，這份檔案的那個xxx token還有效嗎?"
 ---
 身為一個對資訊安全有興趣的攻城獅，接受過一些基本的檔案分析訓練也是合情合理的。        
 只是長期待在產品部門的我，對於這種事情雖然知道可能可以怎麼開始，但說真的不擅長。        
