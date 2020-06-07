@@ -1,5 +1,6 @@
 ---
 title: 二進制檔案裡的純文字
+description: 輕輕鬆鬆一眼看穿二進制檔案裡的純文字
 date: 2020-05-19
 categories:
   - "Windows"
