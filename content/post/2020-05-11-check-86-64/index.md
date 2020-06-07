@@ -1,6 +1,7 @@
 ---
 title: x86或是x64的PE File?
 date: 2020-05-11
+description: 看檔案大小猜32/64就low了，我都開hexview
 categories:
   - "Windows"
 tags:
