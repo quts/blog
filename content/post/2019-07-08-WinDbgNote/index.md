@@ -10,7 +10,7 @@ lead: "Note for learning Windbg"
 ---
 # Commands
 1. Find machine name in kernel dump
-```
+```text
 6: kd> r @$t0 = @@masm(mrxsmb!SmbCeContext); dx (nt!_UNICODE_STRING[4])(@$t0)
 (nt!_UNICODE_STRING[4])(@$t0)                 [Type: _UNICODE_STRING [4]]
     [0]              : "ABCDEF" [Type: _UNICODE_STRING]
