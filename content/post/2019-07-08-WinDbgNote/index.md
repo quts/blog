@@ -10,18 +10,20 @@ lead: "Note for learning Windbg"
 ---
 # Commands
 ## Kernel
-1. Find machine name in kernel dump
+1. Find machine name in kernel dump.        
 ```
-6: kd> r @$t0 = @@masm(mrxsmb!SmbCeContext); dx (nt!_UNICODE_STRING[4])(@$t0)
-(nt!_UNICODE_STRING[4])(@$t0)                 [Type: _UNICODE_STRING [4]]
-    [0]              : "ABCDEF" [Type: _UNICODE_STRING]
-    [1]              : "MN123456" [Type: _UNICODE_STRING]
-    [2]              : "Windows 10 Enterprise 18363" [Type: _UNICODE_STRING]
-    [3]              : "Windows 10 Enterprise 6.3" [Type: _UNICODE_STRING]
+r @$t0 = @@masm(mrxsmb!SmbCeContext); dx (nt!_UNICODE_STRING[4])(@$t0)
 ```
 2. Switch to process
-```
-!process 0 0 <process_name>.      // get process address
-.process /r /P <process_address>  // switch to process
-!process 0 7 <process_name>       // list process threads
-```
+    - get process address        
+    ```
+    !process 0 0 <process_name>
+    ```
+    - switch to process        
+    ```
+    .process /r /P <process_address>
+    ```
+    - list process threads        
+    ```
+    !process 0 7 <process_name>
+    ```
