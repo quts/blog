@@ -19,7 +19,8 @@ googleAnalytics = "UA-168781303-1" # Enable Google Analytics by entering your tr
   authorbox = true # Show authorbox at bottom of pages if true
   post_meta = ["date", "categories"] # Order of post meta information
   customJS = ["js/prism.js"] # Include custom JS files
-  customJS = ["css/prism.css"] # Include custom JS files
+  customCSS = ["css/prism.css"] # Include custom CSS files
+
 [Params.sidebar]
   home = "right" # Configure layout for home page
   list = "left"  # Configure layout for list pages
