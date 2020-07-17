@@ -16,14 +16,14 @@ r @$t0 = @@masm(mrxsmb!SmbCeContext); dx (nt!_UNICODE_STRING[4])(@$t0)
 ```
 2. Switch to process
     - get process address        
-    ```cpp
+    ```Batchfile
     !process 0 0 <process_name>
     ```
     - switch to process        
-    ```cpp
+    ```Batchfile
     .process /r /P <process_address>
     ```
     - list process threads        
-    ```cpp
+    ```Batchfile
     !process 0 7 <process_name>
     ```
